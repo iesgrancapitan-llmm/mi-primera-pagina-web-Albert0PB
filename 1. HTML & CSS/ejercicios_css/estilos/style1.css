@@ -1,0 +1,26 @@
+/* Alberto Pérez Bernabeu */
+/* Documento CSS de estilo para los ejercicios 'CSS Diner', 'Flexbox Froggy' y ' Grid Garden'. */
+
+.center{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+section{
+    grid-area: section;
+}
+
+
+
+header{
+    grid-area: header;
+}
+
+body{
+    display: grid;
+    grid-template-areas:
+    "header "
+    "section "
+
+}

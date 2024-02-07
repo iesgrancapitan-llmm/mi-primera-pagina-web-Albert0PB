@@ -1,0 +1,41 @@
+/* Alberto Pérez Bernabeu */ 
+
+section{
+    grid-area: section;
+    padding-left: 15px;
+    margin-right: 20px;
+}
+
+nav{
+    grid-area: nav;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: small;
+    border-left: solid thin;
+}
+
+header{
+    grid-area: header;
+    border-bottom: solid thin;
+}
+
+footer{
+    grid-area: footer;
+    border-top: solid thin;
+}
+
+body{
+    display: grid;
+    grid-template-areas:
+    "header header header header"
+    "section section section nav"
+    "section section section nav"
+    "section section section nav"
+    "footer footer footer footer";
+
+}
+
+p{
+    text-align: justify;
+}

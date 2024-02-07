@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="autor" content="Alberto Pérez Bernabeu">
+        <title>Formulario de prueba HTML5</title>
+        <link rel="stylesheet" href="\formularios\formularios.css">
+    </head>
+    <body>
+        <header>
+            <h1>Controles de formulario</h1>
+        </header>
+        <section>
+            <form action="" method="get">
+                <div>
+                    <p class="division">Datos personales</p>
+                    <p>
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" name="nombre">
+                    </p>
+                    <p>
+                        <label for="correo">Correo electrónico: </label>
+                        <input type="email" name="correo">
+                    </p>
+                    <p>
+                        <label for="url_web">URL: </label>
+                        <input type="url" name="url_web" placeholder="Escribre la URL de tu página web">
+                    </p>
+                    <p>
+                        <label for="provincia">Provincia: </label>
+                            <select name="provincia">
+                                <option value="sev" selected>SEVILLA</option>
+                                <option value="mal">MÁLAGA</option>
+                                <option value="hue">HUELVA  </option>
+                                <option value="gra">GRANADA</option>
+                                <option value="jae">JAÉN</option>
+                                <option value="cad">CÁDIZ</option>
+                                <option value="alm">ALMERÍA</option>
+                                <option value="cor">CÓRDOBA</option>
+                            </select>
+                    </p>
+                </div>
+                <div>
+                    <p class="division">Otros datos</p>
+                    <p>
+                        <label for="fecha">Fecha: </label>
+                            <input type="date" name="fecha">
+                    </p>
+                    <p>
+                        <label for="hora">Tiempo: </label>
+                        <input type="time" name="hora">
+                    </p>
+                    <p>
+                        <label for="fecha_hora">Fecha y hora:</label>
+                        <input type="datetime" name="fecha_hora">
+                    </p>
+                    <p>
+                        <label for="mes">Mes: </label>
+                        <input type="month" name="mes">
+                    </p>
+                    <p>
+                        <label for="semana">Semana: </label>
+                        <input type="week" name="semana">
+                    </p>
+                    <p>
+                        <label for="numero">Número (min -10, max 10): </label>
+                        <input type="number" name="numero" max="10" min="-10">
+                    </p>
+                    <p>
+                        <label for="telefono">Teléfono: </label>
+                        <input type="tel" name="telefono">
+                    </p>
+                    <p>
+                        <label for="term_busq">Término de búsqueda: </label>
+                        <input type="search" name="term_busq">
+                    </p>
+                    <p>
+                        <label for="col_fav">Color favorito: </label>
+                        <input type="color" name="col_fav">
+                    </p>
+                </div>
+                <div>
+                    <p class="division">Otros controles</p>
+                    <p>
+                        <label for="aficiones">Aficiones</label>
+                        <input type="checkbox" name="aficiones" id="0" checked>
+                        <label for="aficiones">Cine</label>
+                        <input type="checkbox" name="aficiones" id="1">
+                        <label for="aficiones">Deporte</label>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <label for="form_pago">Forma de pago</label>
+                        <br>
+                        <input type="radio" name="form_pago" id="2">
+                        <label for="form_pago">Visa</label>
+                        <input type="radio" name="form_pago" id="3">
+                        <label for="form_pago">American Express</label>
+                        <input type="radio" name="form_pago" id="4">
+                        <label for="form">MasterCard</label>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                    </p>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,45 @@
+/* Alberto Pérez Bernabeu */
+
+caption{
+    grid-area: caption;
+    font-size: large;
+}
+
+table{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: inset;
+    border-color: crimson;
+}
+
+th{
+    width: 10%;
+}
+
+td{
+    border:solid blue;
+}
+
+.fol{
+    background-color:khaki;
+}
+
+.ent{
+    background-color:magenta;
+}
+
+.bbdd{
+    background-color: blueviolet;
+}
+
+.sistinf{
+    background-color: red;
+}
+
+.llmm{
+    background-color: aquamarine;
+}
+
+.prog{
+    background-color: yellowgreen;
+}
