@@ -1,0 +1,88 @@
+<xml version="1.0" encoding="UTF-8">
+<!-- 
+Realizarás una entrega de un fichero con formato Atom con los siguientes elementos:
+- Los elementos obligatorios de los metadatos del feed.
+- Autor y enlace del feed.
+- Categoría y derechos del feed.
+- 4 entradas, como mínimo, con diferentes orígenes y los siguientes elementos.
+
+
+  - Los elementos obligatorios de la entrada.
+  - Autor y fuente de la entrada.
+  - Contenido. Los artículos alternarán los siguientes tipos de contenidos: 
+    - Una página web externa, 
+    - código HTML, 
+    - un archivo pdf y 
+    - un archivo multimedia (audio o vídeo).
+
+
+
+Este es el [servicio de validación de fuentes](https://validator.w3.org/feed/) W3C.
+
+
+
+- Inserta un enlace en la página de inicio de nuestra web que apunte al archivo Atom para poder consultarlo a través del navegador. Usa el icono estándar de 
+sindicación de contenidos
+
+```htm
+<p><a href="ud4_a3.xml">
+   <img src="valid-rss-rogers.png" alt="[Acceso al Feed]" title="Acceso al feed" />
+</a></p>
+```
+- Inserta un elemento en la cabecera de la página de inicio para que los lectores o agregadores RSS suscribirse a nuestro feed. Dentro del elemento de la 
+página de inicio de nuestro sitio web pondremos el siguiente elemento.
+```htm
+<link href="ud4_a3-atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" />
+```
+Indica aquí la url de tu sitio web.
+
+
+Utiliza el lector/agregador feedly para añadir el fichero RSS que has creado.
+
+Muestra una captura del contenido de la sindicación del contenido
+-->
+  <feed>
+    <title>Ejercicio 4.3. Canal de ATOM</title>
+    <link href=""></link>
+    <category>Didáctico</category>
+    <autor>Alberto Pérez Bernabeu</autor>
+    <rights>CC0 Public Domain</rights>
+
+    <item>
+      <title></title>
+      <link></link>
+      <updated></updated>
+      <published></published>
+      <autor></autor>
+      <content></content>
+    </item>
+
+    <item>
+      <title></title>
+      <link></link>
+      <updated></updated>
+      <published></published>
+      <autor></autor>
+      <content></content>
+    </item>
+
+    <item>
+      <title></title>
+      <link></link>
+      <updated></updated>
+      <published></published>
+      <autor></autor>
+      <content></content>
+    </item>
+
+    <item>
+      <title></title>
+      <link></link>
+      <updated></updated>
+      <published></published>
+      <autor></autor>
+      <content></content>
+    </item>
+
+  </feed>
+</xml>
