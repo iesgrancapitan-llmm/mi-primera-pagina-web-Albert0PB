@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE colores [
+<!ELEMENT colores (color*)>
+<!ELEMENT color (nombreSVG, codigo)>
+<!ELEMENT nombreSVG (#PCDATA)>
+<!ELEMENT codigo (rgb | cmyk)>
+<!ELEMENT rgb (#PCDATA)>
+<!ELEMENT cmyk (#PCDATA)>
+]>
+
+<colores>
+    <color>
+        <nombreSVG>Purple</nombreSVG>
+        <codigo>
+            <rgb>#800080</rgb>
+        </codigo>
+    </color>
+    <color>
+        <nombreSVG>Purple</nombreSVG>
+        <codigo>
+            <cmyk>#00FF007F</cmyk>
+        </codigo>
+    </color>
+</colores>

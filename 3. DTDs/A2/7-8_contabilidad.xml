@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE contabilidad [
+<!ELEMENT contabilidad (apunte+)>
+<!ELEMENT apunte (ingreso?, fecha?, cantidad?, concepto?, gasto?)>
+<!ELEMENT ingreso EMPTY>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT concepto (#PCDATA)>
+<!ELEMENT gasto EMPTY>
+]>
+
+<contabilidad>
+    <apunte>
+        <ingreso />
+        <fecha>24 febrero de 2011</fecha>
+        <cantidad>1800,00 €</cantidad>
+        <concepto>Salario</concepto>
+    </apunte>
+    <apunte>
+        <gasto />
+    </apunte>
+</contabilidad>

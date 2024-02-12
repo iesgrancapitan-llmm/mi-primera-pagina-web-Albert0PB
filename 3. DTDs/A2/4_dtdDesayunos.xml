@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE desayunos [
+<!ELEMENT desayunos (desayuno+)>
+<!ELEMENT desayuno (nombre, precio, descripcion, calorias)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre acompannamiento CDATA #IMPLIED>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda CDATA #FIXED "Euros">
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT calorias (#PCDATA)>
+]>
+
+<desayunos>
+    <desayuno>
+        <nombre>Gofres Belgas</nombre>
+        <precio moneda="Euros">5.95</precio>
+        <descripcion>Dos de nuestros famosos Gofres belgas con abundante sirope</descripcion>
+        <calorias>650</calorias>
+    </desayuno>
+    <desayuno>
+        <nombre acompannamiento="fresas">Gofres Belgas</nombre>
+        <precio moneda="Euros">7.95</precio>
+        <descripcion>Ligeros gofres belgas cubiertos de fresas y nata montada</descripcion>
+        <calorias>900</calorias>
+    </desayuno>
+    <desayuno>
+        <nombre acompannamiento="frutas del bosque">Gofres belgas</nombre>
+        <precio moneda="Euros">8.95</precio>
+        <descripcion>Ligeros gofres belgas cubiertos con frutas del bosque y nata montada</descripcion>
+        <calorias>900</calorias>
+    </desayuno>
+    <desayuno>
+        <nombre>Tostada Francesa</nombre>
+        <precio moneda="Euros">4.50</precio>
+        <descripcion>Dos gruesas rebanadas de nuestro pan francés casero</descripcion>
+        <calorias>600</calorias>
+    </desayuno>
+    <desayuno>
+        <nombre>Desayuno casero</nombre>
+        <precio moneda="Euros">6.95</precio>
+        <descripcion>Dos huevos, bacon o salchicha, tostada y patatas fritas</descripcion>
+        <calorias>950</calorias>
+    </desayuno>
+</desayunos>
