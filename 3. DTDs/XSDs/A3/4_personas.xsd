@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="personas">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="persona">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="datos">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="nombre" type="xsd:NMTOKEN"></xsd:element>
+                                        <xsd:element name="apellidos" type="xsd:string"></xsd:element>
+                                        <xsd:element name="dni" type="xsd:ID"></xsd:element>
+                                    </xsd:sequence>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="comentario" type="xsd:string"></xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute name="fechaNacimiento" type="xsd:date"></xsd:attribute>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>       
+    </xsd:element>
+</xsd:schema>

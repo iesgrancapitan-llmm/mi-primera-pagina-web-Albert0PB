@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+    <xsi:element name="facturas">
+        <xsi:complexType>
+            <xsi:sequence>
+                <xsi:element name="factura">
+                    <xsi:complexType>
+                        <xsi:sequence>
+                            <xsi:element name="cabecera">
+                                <xsi:complexType>
+                                    <xsi:sequence>
+                                        <xsi:element name="fecha">
+                                            <xsi:complexType>
+                                                <xsi:sequence>
+                                                    <xsi:element name="mes" maxOccurs="1" type="xsi:NMTOKEN" />
+                                                    <xsi:element name="dia" maxOccurs="1" type="xsi:positiveInteger" />
+                                                    <xsi:element name="anno" maxOccurs="1" type="xsi:positiveInteger" />
+                                                </xsi:sequence>
+                                            </xsi:complexType>
+                                        </xsi:element>
+                                        <xsi:element name="cliente">
+                                            <xsi:complexType>
+                                                <xsi:sequence>
+                                                    <xsi:element name="direccion">
+                                                        <xsi:complexType>
+                                                            <xsi:sequence>
+                                                                <xsi:element name="nombre_via"></xsi:element>
+                                                                
+                                                            </xsi:sequence>
+                                                        </xsi:complexType>
+                                                    </xsi:element>
+                                                </xsi:sequence>
+                                            </xsi:complexType>
+                                        </xsi:element>
+                                    </xsi:sequence>
+                                </xsi:complexType>
+                            </xsi:element>
+                        </xsi:sequence>
+                    </xsi:complexType>
+                </xsi:element>
+            </xsi:sequence> 
+        </xsi:complexType>
+    </xsi:element>
+</xsi:schema>

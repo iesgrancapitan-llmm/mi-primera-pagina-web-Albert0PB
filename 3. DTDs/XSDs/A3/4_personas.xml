@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="4_personas.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<personas>
+    <persona fechaNacimiento="2000-01-01">
+        <datos>
+            <nombre>Alberto</nombre>
+            <apellidos>Pérez Bernabeu</apellidos>
+            <dni>A-12312345</dni>
+        </datos>
+        <comentario>Un comentario.</comentario>
+    </persona>
+</personas>
