@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="regex.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<ejercicio>
+    <dniType>12345678Z</dniType>
+    <dniType>12345678z</dniType>
+    <dniType>12345678 Z</dniType>
+    <dniType>12345678-Z</dniType>
+
+    <matriculaType>1234 BCD</matriculaType>
+    <matriculaType>5678 ZYX</matriculaType>
+    <matriculaType>1234 ABC</matriculaType>
+    <matriculaType>1234 QBC</matriculaType>
+    <matriculaType>1234 MNÑ</matriculaType>
+
+    <macType>AB-CD-F1-23-45-67</macType>
+    <macType>AB:CD:F1:23:45:67</macType>
+    <macType>ABCDF1234567</macType>
+    <macType>AB:CDF1:23:45-67</macType>
+
+    <ipType>0.0.0.0</ipType>
+    <ipType>14.255.1.2</ipType>
+    <ipType>09.1.2.3</ipType>
+    <ipType>1.260.4.5</ipType>
+    <ipType>09.6.5.4</ipType>
+    <ipType>1.2.3.011</ipType>
+
+    <dosDecimalesType>123</dosDecimalesType>
+    <dosDecimalesType>123.44</dosDecimalesType>
+    <dosDecimalesType>12.6</dosDecimalesType>
+    <dosDecimalesType>5.67</dosDecimalesType>
+    <dosDecimalesType>12345678.23</dosDecimalesType>
+    <dosDecimalesType>1234.3456</dosDecimalesType>
+</ejercicio>
