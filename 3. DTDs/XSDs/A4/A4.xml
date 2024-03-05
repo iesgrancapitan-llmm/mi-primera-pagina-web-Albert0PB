@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="regex.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-model href="regex.xsd" ="application/xml" schemans="http://www.w3.org/2001/XMLSchema"?>
 
 <ejercicio>
-    <dniType>12345678Z</dniType>
-    <dniType>12345678z</dniType>
-    <dniType>12345678 Z</dniType>
-    <dniType>12345678-Z</dniType>
+    <dni>12345678Z</dni>
+    <!-- <dni>125678z</dni> -->
+    <dni>12345678 Z</dni>
+    <dni>12345678-Z</dni>
 
-    <matriculaType>1234 BCD</matriculaType>
-    <matriculaType>5678 ZYX</matriculaType>
-    <matriculaType>1234 ABC</matriculaType>
-    <matriculaType>1234 QBC</matriculaType>
-    <matriculaType>1234 MNÑ</matriculaType>
+    <matricula>1234 BCD</matricula>
+    <matricula>5678 ZYX</matricula>
+    <!-- <matricula>1223 ABC</matricula> -->
+    <!-- <matricula>1234 QBC</matricula> -->
+    <!-- <matricula>1234 MNÑ</matricula> -->
 
-    <macType>AB-CD-F1-23-45-67</macType>
-    <macType>AB:CD:F1:23:45:67</macType>
-    <macType>ABCDF1234567</macType>
-    <macType>AB:CDF1:23:45-67</macType>
+    <mac>AF-CD-F1-23-45-67</mac>
+    <mac>AB:CD:F1:23:45:67</mac>
+    <mac>ABCDF1234567</mac>
+    <!-- <mac>AB:CDF1:23:45-67</mac> -->
 
-    <ipType>0.0.0.0</ipType>
-    <ipType>14.255.1.2</ipType>
-    <ipType>09.1.2.3</ipType>
-    <ipType>1.260.4.5</ipType>
-    <ipType>09.6.5.4</ipType>
-    <ipType>1.2.3.011</ipType>
+    <ip>0.0.0.0</ip>
+    <ip>14.255.1.2</ip>
+    <!-- <ip>00.255.255.255</ip> -->
+    <!-- <ip>09.1.2.3</ip> -->
+    <!-- <ip>1.260.4.5</ip> -->
+    <!-- <ip>09.6.5.4</ip> -->
+    <!-- <ip>1.2.3.011</ip> -->
 
-    <dosDecimalesType>123</dosDecimalesType>
-    <dosDecimalesType>123.44</dosDecimalesType>
-    <dosDecimalesType>12.6</dosDecimalesType>
-    <dosDecimalesType>5.67</dosDecimalesType>
-    <dosDecimalesType>12345678.23</dosDecimalesType>
-    <dosDecimalesType>1234.3456</dosDecimalesType>
+    <dosDecimales>123</dosDecimales>
+    <dosDecimales>123.44</dosDecimales>
+    <dosDecimales>12.6</dosDecimales>
+    <dosDecimales>5.67</dosDecimales>
+    <dosDecimales>12345678.23</dosDecimales>
+    <!-- <dosDecimales>1234.3456</dosDecimales> -->
 </ejercicio>

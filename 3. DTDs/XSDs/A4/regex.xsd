@@ -1,55 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-    <xsd:element name="dniType">
-        <xsd:simpleType>
-            <xsd:restriction base="xsd:string">
-                <xsd:pattern value="\d{8}[ \-]?[a-zA-Z]"></xsd:pattern>
-            </xsd:restriction>
-        </xsd:simpleType>
-    </xsd:element>
 
-    <xsd:element name="matriculaType">
-        <xsd:simpleType>
-            <xsd:restriction base="xsd:string">
-                <xsd:pattern value="\d{4}( )[B-DF-HJ-NPR-TV-Z]{3}"></xsd:pattern>
-            </xsd:restriction>
-        </xsd:simpleType>
-    </xsd:element>
+    <xsd:simpleType name="dniType">
+        <xsd:annotation>
+            <xsd:documentation>Tipo simple para la validación de DNIs. 
+                Ej: 12345678Z, 12345678 Z, 12345678-Z </xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\d{8}[ \-]?[a-zA-Z]"></xsd:pattern>
+        </xsd:restriction>
+    </xsd:simpleType>
 
-    <xsd:element name="macType">
-        <xsd:simpleType>
-            <xsd:restriction base="xsd:string">
-                <xsd:pattern value="([A-Z]{5}\d{7}|[A-Z]{2}(\-|\:)[A-Z]{2}(\-|\:)[A-Z]\d(\-|\:)\d\d(\-|\:)\d\d(\-|\:)\d\d)"></xsd:pattern>
-            </xsd:restriction>
-        </xsd:simpleType>
-    </xsd:element>
+    <xsd:simpleType name="matriculaType">
+        <xsd:annotation>
+            <xsd:documentation>Tipo simple para la validación de matrículas.
+                Ej: 1234 BCD, 5678 ZYX
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\d{4}( )[B-DF-HJ-NPR-TV-Z]{3}"></xsd:pattern>
+        </xsd:restriction>
+    </xsd:simpleType>
 
-    <xsd:element name="ipType">
-        <xsd:simpleType>
-            <xsd:restriction base="xsd:string">
-                <xsd:pattern value="((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[1-9]|(0))\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[1-9]|(0))"></xsd:pattern>
-            </xsd:restriction>
-        </xsd:simpleType>
-    </xsd:element>
+    <xsd:simpleType name="macType">
+        <xsd:annotation>
+            <xsd:documentation>Tipo simple para la validación de direcciones MAC.
+                Ej: AF-CD-F1-23-45-67, AB:CD:F1:23:45:67, ABCDF1234567
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern
+                value="[0-9A-F]{2}[\-|\:][0-9A-F]{2}[\-|\:][0-9A-F]{2}[\-|\:][0-9A-F]{2}[\-|\:][0-9A-F]{2}[\-|\:][0-9A-F]{2}|[0-9A-F]{12}"></xsd:pattern>
+        </xsd:restriction>
+    </xsd:simpleType>
 
-    <xsd:element name="dosDecimalesType">
-        <xsd:simpleType>
-            <xsd:restriction base="xsd:decimal">
-                <xsd:pattern value="(\d)+(\.(\d){1,2})?"></xsd:pattern>
-            </xsd:restriction>
-        </xsd:simpleType>
-    </xsd:element>
+    <xsd:simpleType name="ipType">
+        <xsd:annotation>
+            <xsd:documentation>Tipo simple para la validación de direcciones IP.
+                Ej: 0.0.0.0, 14.255.1.2
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern
+                value="((25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[1-9]|(0))\.){3}(25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9][0-9]|[1-9]|(0))"></xsd:pattern>
+        </xsd:restriction>
+    </xsd:simpleType>
 
-    <xsd:element name="ejercicio">
-        <xsd:complexType>
-            <xsd:sequence>
-                <xsd:element name="dniType" minOccurs="4" maxOccurs="4"></xsd:element>
-                <xsd:element name="matriculaType" minOccurs="5" maxOccurs="5"></xsd:element>
-                <xsd:element name="macType" minOccurs="4" maxOccurs="4"></xsd:element>
-                <xsd:element name="ipType" minOccurs="6" maxOccurs="6"></xsd:element>
-                <xsd:element name="dosDecimalesType" minOccurs="6" maxOccurs="6"></xsd:element>
-            </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
+    <xsd:simpleType name="dosDecimalesType">
+        <xsd:annotation>
+            <xsd:documentation>Tipo simple para la validación de números con hasta dos decimales.
+                Ej: 123, 123.44, 12.6, 5.67, 12345678.23
+            </xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:decimal">
+            <xsd:pattern value="(\d)+(\.(\d){1,2})?"></xsd:pattern>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:element name="ejercicio" type="ejercicioType"></xsd:element>
+
+    <xsd:complexType name="ejercicioType">
+        <xsd:annotation>
+            <xsd:documentation>Tipo complejo que para validar la etiqueta conformada por los apartados del ejercicio.</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+            <xsd:element name="dni" type="dniType" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+            <xsd:element name="matricula" type="matriculaType" minOccurs="0"
+                maxOccurs="unbounded"></xsd:element>
+            <xsd:element name="mac" type="macType" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+            <xsd:element name="ip" type="ipType" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+            <xsd:element name="dosDecimales" type="dosDecimalesType" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
 </xsd:schema>
