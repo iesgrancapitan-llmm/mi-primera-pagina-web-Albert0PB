@@ -1,7 +1,12 @@
-# UD2 A1 Mi primera página Web
+## PRÁCTICAS Y EJERCICIOS
+### HTML
+   [Mi primera página web](./HTML/primera_pagina_web/index.html)
 
-## Mi hosting (Github Pages)
-[Link](https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Albert0PB/)
+   [HTML semántico](./HTML/html_semantico/index.html)
+
+   [Listas en HTML](./HTML/listas/index.html)
+
+   [Tablas en HTML](./HTML/tablas/index.html)
 
 ## Visual Studio Code
 Utiliza Visual Studio Code. Debes prepararlo con las extensiones necesarias para el trabajo con html. Para visualizarlo en el navegador o directamente en el Visual Studio Code: 
