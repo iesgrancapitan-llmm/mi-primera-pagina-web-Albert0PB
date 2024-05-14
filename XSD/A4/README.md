@@ -1,8 +1,8 @@
 # UD5 A Validación XSD. Expresiones regulares en la faceta xs:pattern
 
-[Documento XSD](.\regex.xsd)
+[Documento XSD](./regex.xsd)
 
-[Documento XML](.\A4.xml)
+[Documento XML](./A4.xml)
 
 
 XML Schema permite definir **restricciones** a los posibles valores de los tipos de datos. Dichas restricciones se pueden establecer en diferentes aspectos, llamados facetas.
