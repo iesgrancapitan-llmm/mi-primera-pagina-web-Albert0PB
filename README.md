@@ -29,6 +29,21 @@
 
    [Horario con display grid](./CSS/horario/index.html)
 
+### RSS
+   [Lectores RSS y ATOM](./RSS/Lectores/README.md)
+
+   [Canal RSS](./RSS/Canal/README.md)
+
+### ATOM
+   [Canal ATOM](./ATOM/Canal/README.md)
+
+### DTD
+   [Actividad 1](./DTD/A1/README.md)
+
+   [Actividad 2](./DTD/A2/README.md)
+
+### XSD
+
 ## Visual Studio Code
 Utiliza Visual Studio Code. Debes prepararlo con las extensiones necesarias para el trabajo con html. Para visualizarlo en el navegador o directamente en el Visual Studio Code: 
 

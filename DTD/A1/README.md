@@ -1,7 +1,10 @@
 # UD5 A1. Validación. DTD
 
-DTD Primer ejercicio: [alumnos](3. DTDs\A1\a1-1.xml)
-DTDs Segundo ejercicio: [coches](3. DTDs\A1\a1-2.xml) [colegio](3. DTDs\A1\a1-3.xml)
+[Primer ejercicio](./a1-1.xml)
+
+[Segundo ejercicio](./a1-2.xml)
+
+[Tercer ejercicio](./a1-3.xml)
 
 Comenzamos con la validación de XML. Para ello:
 - Realiza la lectura de los primeros apartados del documento [adjunto](./XML.pdf) hasta la definición del tipo del documento: hasta el apartado 3.1 incluído. 
