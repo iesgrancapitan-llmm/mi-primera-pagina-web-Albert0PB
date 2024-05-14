@@ -30,6 +30,8 @@
    [Horario con display grid](./CSS/horario/index.html)
 
 ### RSS
+   [HTML utilizado en ejercicios de sindicación de contenido con RSS y ATOM](./HTML/index.html)
+
    [Lectores RSS y ATOM](./RSS/Lectores/README.md)
 
    [Canal RSS](./RSS/Canal/README.md)
