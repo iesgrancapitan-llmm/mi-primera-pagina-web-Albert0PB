@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Canal RSS</title>
+    <link>https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Albert0PB/</link>
+    <description>Sindicación con RSS de página de Github Pages</description>
+    <webMaster>a23pebeal@iesgrancapitan.org (Alberto Pérez)</webMaster>
+    <category>Noticias satíricas</category>
+    <lastBuildDate>Mon, 22 Jan 2024 16:30:00 EST</lastBuildDate>
+    <language>es</language>
+
+    <skipDays>
+      <day>Saturday</day>
+      <day>Sunday</day>
+    </skipDays>
+
+    <skipHours>
+      <hour>6</hour>
+      <hour>7</hour>
+      <hour>8</hour>
+      <hour>9</hour>
+      <hour>10</hour>
+      <hour>11</hour>
+      <hour>12</hour>
+      <hour>13</hour>
+      <hour>14</hour>
+      <hour>15</hour>
+      <hour>16</hour>
+      <hour>17</hour>
+      <hour>18</hour>
+      <hour>19</hour>
+      <hour>20</hour>
+      <hour>21</hour>
+      <hour>22</hour>
+      <hour>23</hour>
+    </skipHours>
+
+    <image>
+      <url>https://drive.google.com/file/d/1rHzGCS49v06IorY3NS_A3hRb8E_y24Y5/view?usp=sharing</url>
+      <title>Canal RSS</title>
+      <link>https://github.com/iesgrancapitan-llmm/mi-primera-pagina-web-Albert0PB</link>
+    </image>
+
+    <item>
+      <title>'Tras un acuerdo entre el Gobierno y los independentistas, los Jordis presentarán la gala de los Goya'</title>
+      <description>'Los Jordis, líderes del independentismo catalán, y Ana Belén, actriz y cantante, serán los presentadores de la 38 edición de los 
+        Premios Goya, que se celebrarán en la localidad catalana de Sant Climent de Sescebes el 10 de febrero de 2024, según ha anunciado este jueves 
+        el presidente de la Academia de Cine, Fernando Méndez-Leite'</description>
+      <link>https://www.elmundotoday.com/2023/11/tras-un-acuerdo-entre-el-gobierno-y-los-independentistas-los-jordis-presentaran-la-gala-de-los-goya/</link>
+      <guid>https://www.elmundotoday.com/2023/11/tras-un-acuerdo-entre-el-gobierno-y-los-independentistas-los-jordis-presentaran-la-gala-de-los-goya/</guid>
+      <author>xavipuig@gmail.com (Xavi Puig)</author>
+      <category>Gala de los Goya</category>
+    </item>
+
+    <item>
+      <title>'Expertos confirman que si se escucha el último disco de los Rolling Stones del revés se les oye tomar la medicación'</title>
+      <description>'Varios medios especializados del sector musical han publicado esta semana sus impresiones sobre el nuevo lanzamiento de 
+        The Rolling Stones. Los expertos coinciden al señalar que, si se escucha el álbum del revés, se puede oír a los integrantes de la banda 
+        tomando la medicación. "Es algo muy sutil, pero ahí está, sin duda ninguna”, apuntan en Billboard. No está claro aún si se trata de algo buscado 
+        por los Stones o bien fruto de la casualidad.'</description>
+      <link>https://www.elmundotoday.com/2023/10/expertos-confirman-que-si-se-escucha-el-ultimo-disco-de-los-rolling-stones-del-reves-se-les-oye-tomar-la-medicacion/</link>
+      <guid>https://www.elmundotoday.com/2023/10/expertos-confirman-que-si-se-escucha-el-ultimo-disco-de-los-rolling-stones-del-reves-se-les-oye-tomar-la-medicacion/</guid>
+      <author>javierramos@gmail.com (Javi Ramos)</author>
+      <category>Música</category>
+    </item>
+
+    <item>
+      <title>'La presencia de Antonio Tejero genera críticas por la falta de rigor histórico de la película Napoleón'</title>
+      <description>'El director Ridley Scott lleva días encajando críticas por la falta de rigor histórico de su película sobre Napoleón Bonaparte, 
+        recién estrenada. «Nunca bombardeó locales de La casa de las carcasas», puede leerse en una reseña de Filmaffinity escrita por el usuario 
+        Juan G. Currás. A esta licencia narrativa se suman muchas más. Demasiadas, a juzgar por la reacción de la audiencia.'</description>
+      <link>https://www.elmundotoday.com/2023/11/la-presencia-de-antonio-tejero-genera-criticas-por-la-falta-de-rigor-historico-de-la-pelicula-napoleon/</link>
+      <guid>https://www.elmundotoday.com/2023/11/la-presencia-de-antonio-tejero-genera-criticas-por-la-falta-de-rigor-historico-de-la-pelicula-napoleon/</guid>
+      <author>xavipuig@gmail.com (Xavi Puig)</author>
+      <category>Cine</category>
+    </item>
+
+    <item>
+      <title>'La RAE se rinde e incorpora el adverbio “literalmente” para hablar metafóricamente'</title>
+      <description>'“Literalmente” es un adverbio de modo que indica que lo que se dice o escribe mantiene el significado exacto de las palabras utilizadas, 
+        pero la Real Academia Española (RAE) ha detectado que el término está siendo usado en su sentido opuesto por una gran parte de la población; condición 
+        indispensable para valorar su incorporación al diccionario.'</description>
+      <link>https://www.elmundotoday.com/2023/06/la-rae-se-rinde-e-incorpora-el-adverbio-literalmente-para-hablar-metaforicamente/</link>
+      <guid>https://www.elmundotoday.com/2023/06/la-rae-se-rinde-e-incorpora-el-adverbio-literalmente-para-hablar-metaforicamente/</guid>
+      <author>barbaraalpuente@gmail.com (Bárbara Alpuente)</author>
+      <category>RAE</category>
+    </item>
+  </channel>
+</rss>
