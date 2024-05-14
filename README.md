@@ -21,7 +21,7 @@
 
    [Selectores](./CSS/selectores/index.html)
 
-   [Template areas](./HTML/html_semantico/index.html)
+   [Template areas](./HTML/html_semantico/index.html) ([CSS](./CSS/template_areas/style_semantico.css))
 
    [Flexbox Froggy](./CSS/flexbox_froggy/index.html)
 

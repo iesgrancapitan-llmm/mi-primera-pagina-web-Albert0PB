@@ -1,74 +1,191 @@
 /* Alberto Pérez Bernabeu */
-
- section{
+section {
     display: grid;
-    grid-template-columns: 16.67% 16.67% 16.67% 16.67% 16.67% 16.67%;
-    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
-    grid-template-areas:
-        "hora   lun     mar     mie     jue     vie"
-        "ocho   sistinf llmm    ent     fol     fol"
-        "nueve  sistinf llmm    ent     sistinf fol"
-        "diez   prog    sistinf llmm    sistinf bbdd"
-        "once-c rec     rec     rec     rec     rec"
-        "once-m prog    sistinf llmm    ent     bbdd"
-        "doce   bbdd    prog    prog    bbdd    prog"
-        "una    bbdd    prog    prog    bddd    prog";
+    grid-template-areas: 
+    "hueco  dia1    dia1    dia2   dia2   dia3    dia3    dia4    dia4    dia5  dia5"
+    "hora1  sis-l   sis-l   llmm-m llmm-m ed-x    ed-x    fol-j   fol-j   fol-v  fol-v"
+    "hora2  sis-l   sis-l   llmm-m llmm-m ed-x    ed-x     sis-j   sis-j  fol-v  fol-v"
+    "hora3  pro-l1  pro-l1  sis-m1 sis-m1 llmm-x1 llmm-x1   sis-j   sis-j bd-v1  bd-v1"
+    "hora7  recreo  recreo  recreo recreo recreo  recreo  recreo  recreo  recreo  recreo"
+    "hora4  pro-l2  pro-l2  sis-m2 sis-m2 llmm-x2 llmm-x2   ed-j    ed-j  bd-v2  bd-v2"
+    "hora5  bd-l    bd-l    pro-m  pro-m  bd-x    bd-x    pro-j   pro-j   pro-v  pro-v"
+    "hora6  bd-l    bd-l    pro-m  pro-m  bd-x    bd-x    pro-j   pro-j   pro-v  pro-v"
+    ;
+    gap: 2px;
+    border:groove black ;
+    padding: 2px;
 }
 
-span{
-    margin: 1px;
-}
-
-h2{
+body{
+    background-color: floralwhite;
+    color: darkslategray;
+    font-family:'Times New Roman', Times, serif;
     text-align: center;
 }
 
-.rec{
-    grid-area: "rec";
+#hueco {
+    grid-area: hueco;
 }
 
-.hora{
-    grid-area: "hora"
+div {
+    display: flex;
+    border: thick solid dimgray;
+    justify-content: center;
+    align-items: center;
 }
 
-.fol{
-    grid-area: "fol";
-    background-color:khaki;
-    text-align: center;
-    border: solid medium;
-}
-
-.ent{
-    grid-area: "ent";
-    background-color:magenta;
-    text-align: center;
-    border: solid medium;
-}
-
-.bbdd{
-    grid-area: "bbdd";
-    background-color: blueviolet;
-    text-align: center;
-    border: solid medium;
-}
-
-.sistinf{
-    grid-area: "sistint";
-    background-color: red;
-    text-align: center;
-    border: solid medium;
-}
-
-.llmm{
-    grid-area: "llmm";
+.bd {
     background-color: aquamarine;
-    text-align: center;
-    border: solid medium;
 }
 
-.prog{
-    grid-area: "prog";
-    background-color: yellowgreen;
+.bd-v1 {
+    grid-area: bd-v1;
+}
+.bd-v2 {
+    grid-area: bd-v2;
+}
+.bd-l {
+    grid-area: bd-l;
+}
+.bd-m {
+    grid-area: bd-m;
+}
+.bd-x {
+    grid-area: bd-x;
+}
+
+.sis {
+    background-color: cyan;
+}
+.sis-l {
+    grid-area: sis-l;
+}
+.sis-j {
+    grid-area: sis-j;
+}
+.sis-m1 {
+    grid-area: sis-m1;
+}
+.sis-m2 {
+    grid-area: sis-m2;
+}
+
+.pro {
+    background-color: mediumturquoise;
+}
+.pro-l1 {
+    grid-area: pro-l1;
+ }
+
+.pro-l2 {
+    grid-area: pro-l2;
+}
+.pro-m {
+    grid-area: pro-m;
+}
+
+.pro-l2 {
+    grid-area: pro-l2;
+}
+.pro-j {
+    grid-area: pro-j;
+}
+
+.pro-v {
+    grid-area: pro-v;
+}
+
+.llmm {
+    background-color: palegreen;
+}
+.llmm-m {
+    grid-area: llmm-m;
+}
+
+.llmm-x1 {
+    grid-area: llmm-x1;
+}
+
+.llmm-x2 {
+    grid-area: llmm-x2;
+}
+
+.ed {
+    background-color: seagreen;
+}
+.ed-x {
+    grid-area: ed-x;
+}
+
+.ed-j {
+    grid-area: ed-j;
+}
+
+.fol {
+    background-color: deepskyblue;
+}
+.fol-j {
+    grid-area: fol-j;
+}
+.fol-v {
+    grid-area: fol-v;
+}
+
+#dia1 {
+    grid-area: dia1;
+}
+
+#dia2 {
+    grid-area: dia2;
+}
+
+#dia3 {
+    grid-area: dia3;
+}
+
+#dia4 {
+    grid-area: dia4;
+}
+
+#dia5 {
+    grid-area: dia5;
+}
+
+#hora1 {
+    grid-area: hora1;
+}
+
+#hora2 {
+    grid-area: hora2;
+}
+
+#hora3 {
+    grid-area: hora3;
+}
+
+#hora4 {
+    grid-area: hora4;
+}
+
+#hora5 {
+    grid-area: hora5;
+}
+
+#hora6 {
+    grid-area: hora6;
+}
+
+#hora7 {
+    grid-area: hora7;
+}
+
+#recreo {
+    grid-area: recreo;
+    background-color: white;
+}
+
+.otro {
+    border: thick solid #0a0808;
     text-align: center;
-    border: solid medium;
+    background-color: khaki;
 }
