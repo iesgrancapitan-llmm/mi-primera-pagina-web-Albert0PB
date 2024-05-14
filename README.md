@@ -8,6 +8,12 @@
 
    [Tablas en HTML](./HTML/tablas/index.html)
 
+   [Lenguajes de marcas en la web](./HTML/lenguajes_de_marcas_en_la_web/README.md)
+
+   [Formularios en HTML](./HTML/formularios/index.html)
+
+   [Otros menesteres](./HTML/menesteres/index.html)
+
 ## Visual Studio Code
 Utiliza Visual Studio Code. Debes prepararlo con las extensiones necesarias para el trabajo con html. Para visualizarlo en el navegador o directamente en el Visual Studio Code: 
 

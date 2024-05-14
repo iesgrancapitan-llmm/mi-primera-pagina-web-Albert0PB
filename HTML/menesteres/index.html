@@ -4,15 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>Magarín</title>
+    <meta name="author" content="Alberto Pérez Bernabeu"/>
+    <title>Pérez</title>
 </head>
 
 <body>
     <nav>
-        <a href="#">Sección 1</a>
-        <a href="#">Sección 2</a>
-        <a href="#">Sección 3</a>
-        <a href="#">De interés </a>
+        <a href="#section1">Sección 1</a>
+        <a href="#section2">Sección 2</a>
+        <a href="#section3">Sección 3</a>
+        <a href="#section4">De interés </a>
     </nav>
     <h1>Etiqueta ancla (anchor) &lt;a> </h1>
     <p>En general, sólo se debe utilizar un ancla (anchor) para navegación utilizando una URL adecuada. No deben usarse
@@ -25,8 +26,8 @@
     <!-- Sección -->
     <section >
         <h2>Título 1</h2>
-        
-        <p class="logos">
+        <p><a href="#Top">Top</a></p>
+        <p id="section1" class="logos">
             <img class="right" src="./img/1200px-W3C®_Icon.svg.png" alt="logo W3C" >
             <img class="left" src="./img/CSS3_logo_and_wordmark.svg.png" alt="logo CSS3" >
             <img class="left" src="./img/HTML5.png" alt="logo HTML5" >
@@ -38,21 +39,22 @@
         </p>
     </section>
     <!-- Sección -->
-    <section >
+    <section id="section2">
         <h2>Título 2 </h2>
+        <p><a href="#Top">Top</a></p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic molestiae ullam. Ullam quibusdam, placeat
             voluptatum labore dolorum ab reprehenderit ad nihil ipsum, porro in veniam a consequuntur odit nulla.</p>
     </section>
     <!-- Sección -->
-    <section >
-        <h2>Título 3
-        </h2>
+    <section id="section3">
+        <h2>Título 3</h2>
+        <p><a href="#Top">Top</a></p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas hic molestiae ullam. Ullam quibusdam, placeat
             voluptatum labore dolorum ab reprehenderit ad nihil ipsum, porro in veniam a consequuntur odit nulla.</p>
 
     </section>
     <!-- Sección -->
-    <section >
+    <section id="section4">
         <h2>De interés</h2>
         <p>Enlaces a ubicación externa</p>
         <ul>
