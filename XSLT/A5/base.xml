@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="transformacion.xsl" type="text/xsl"?>
+
+<filmoteca>
+    <peliculas>
+        <pelicula id='1' dir_id='3'>
+            <titulo>Con la muerte en los talones</titulo>
+            <anno>1959</anno>
+            <actores_principales>
+                <actor>
+                    <nombre_completo>Cary Grant</nombre_completo>
+                    <nacionalidad>Británico</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>Eva Marie Saint</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+            </actores_principales>
+        </pelicula>
+
+        <pelicula id='2' dir_id='3'>
+            <titulo>Psicosis</titulo>
+            <anno>1960</anno>
+            <actores_principales>
+                <actor>
+                    <nombre_completo>Anthony Perkins</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>Janet Leigh</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+            </actores_principales>
+        </pelicula>
+
+        <pelicula id='3' dir_id='3'>
+            <titulo>Vértigo</titulo>
+            <anno>1958</anno>
+            <actores_principales>
+                <actor>
+                    <nombre_completo>Kim Novak</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>James Stewart</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+            </actores_principales>
+        </pelicula>
+
+        <pelicula id='4' dir_id='1'>
+            <titulo>Rashomon</titulo>
+            <anno>1950</anno>
+            <actores_principales>
+                <actor>
+                    <nombre_completo>Takashi Shimura</nombre_completo>
+                    <nacionalidad>Japonés</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>Minoru Chiaki</nombre_completo>
+                    <nacionalidad>Japonés</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>Kichiijiro Ueda</nombre_completo>
+                    <nacionalidad>Japonés</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>Toshiro Mifune</nombre_completo>
+                    <nacionalidad>Japonés</nacionalidad>
+                </actor>
+            </actores_principales>
+        </pelicula>
+
+        <pelicula id='5' dir_id='1'>
+            <titulo>Ran</titulo>
+            <anno>1985</anno>
+            <actores_principales>
+                <actor>
+                    <nombre_completo>Tatsuya Nakadai</nombre_completo>
+                    <nacionalidad>Japonés</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>Daisuke Ryu</nombre_completo>
+                    <nacionalidad>Japonés</nacionalidad>
+                </actor>
+            </actores_principales>
+        </pelicula>
+
+        <pelicula id='6' dir_id='2'>
+            <titulo>La chaqueta metálica</titulo>
+            <anno>1987</anno>
+            <actores_principales>
+                <actor>
+                    <nombre_completo>Matthew Modine</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>R. Lee Ermey</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>Vincent D'Onofrio</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+            </actores_principales>
+        </pelicula>
+
+        <pelicula id='7' dir_id='2'>
+            <titulo>La naranja mecánica</titulo>
+            <anno>1971</anno>
+            <actores_principales>
+                <actor>
+                    <nombre_completo>Malcolm McDowell</nombre_completo>
+                    <nacionalidad>Británico</nacionalidad>
+                </actor>
+            </actores_principales>
+        </pelicula>
+
+        <pelicula id='8' dir_id='2'>
+            <titulo>¿Teléfono rojo? Volamos hacia Moscú</titulo>
+            <anno>1964</anno>
+            <actores_principales>
+                <actor>
+                    <nombre_completo>Peter Sellers</nombre_completo>
+                    <nacionalidad>Británico</nacionalidad>
+                </actor>
+            </actores_principales>
+        </pelicula>
+
+        <pelicula id='9' dir_id='5'>
+            <titulo>Sólo ante el peligro</titulo>
+            <anno>1952</anno>
+            <actores_principales>
+                <actor>
+                    <nombre_completo>Gary Cooper</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>Grace Kelly</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+            </actores_principales>
+        </pelicula>
+
+        <pelicula id='10' dir_id='5'>
+            <titulo>De aquí a la eternidad</titulo>
+            <anno>1953</anno>
+            <actores_principales>
+                <actor>
+                    <nombre_completo>Burt Lancaster</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>Montgomery Cliff</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>Frank Sinatra</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+            </actores_principales>
+        </pelicula>
+
+        <pelicula id='11' dir_id='5'>
+            <titulo>Un hombre para la eternidad</titulo>
+            <anno>1966</anno>
+            <actores_principales>
+                <actor>
+                    <nombre_completo>David Paul Scofield</nombre_completo>
+                    <nacionalidad>Británico</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>George Orson Welles</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+            </actores_principales>
+        </pelicula>
+
+        <pelicula id='12' dir_id='4'>
+            <titulo>Apocalypse Now</titulo>
+            <anno>1979</anno>
+            <actores_principales>
+                <actor>
+                    <nombre_completo>Marlon Brando Jr.</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>Ramón Antonio Gerardo Estévez</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>Robert Duvall</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>Harrison Ford</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>Laurence John Fishbourne III</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+            </actores_principales>
+        </pelicula>
+
+        <pelicula id='13' dir_id='4'>
+            <titulo>Patton</titulo>
+            <anno>1970</anno>
+            <actores_principales>
+                <actor>
+                    <nombre_completo>George Campbell Scott</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+            </actores_principales>
+        </pelicula>
+
+        <pelicula id='14' dir_id='1'>
+            <titulo>Dersu Uzala</titulo>
+            <anno>1975</anno>
+            <actores_principales>
+                <actor>
+                    <nombre_completo>Yuri Mefódievich Solomin</nombre_completo>
+                    <nacionalidad>Ruso</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>Maksim Monguzhukovich Munzuk</nombre_completo>
+                    <nacionalidad>Tuvano</nacionalidad>
+                </actor>
+            </actores_principales>
+        </pelicula>
+
+        <pelicula id='15' dir_id='2'>
+            <titulo>El resplandor</titulo>
+            <anno>1980</anno>
+            <actores_principales>
+                <actor>
+                    <nombre_completo>John Joseph Nickolson</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>Shelley Alexis Duvall</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>Danny Edward Lloyd</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+                <actor>
+                    <nombre_completo>Benjamin Sherman Crothers</nombre_completo>
+                    <nacionalidad>Estadounidense</nacionalidad>
+                </actor>
+            </actores_principales>
+        </pelicula>
+    </peliculas>
+
+    <directores>
+        <director id='1'>
+            <nombre>Akira</nombre>
+            <apellido>Kurosawa</apellido>
+            <nacionalidad>Japonés</nacionalidad>
+        </director>
+
+        <director id='2'>
+            <nombre>Stanley</nombre>
+            <apellido>Kubrick</apellido>
+            <nacionalidad>Estadounidense</nacionalidad>
+        </director>
+
+        <director id='3'>
+            <nombre>Alfred</nombre>
+            <apellido>Hitchcock</apellido>
+            <nacionalidad>Británico</nacionalidad>
+        </director>
+
+        <director id='4'>
+            <nombre>Francis F.</nombre>
+            <apellido>Coppola</apellido>
+            <nacionalidad>Estadounidense</nacionalidad>
+        </director>
+        
+        <director id='5'>
+            <nombre>Fred</nombre>
+            <apellido>Zinnemann</apellido>
+            <nacionalidad>Polaco</nacionalidad>
+        </director>
+    </directores>
+</filmoteca>
