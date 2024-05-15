@@ -1,55 +1,7 @@
-## PRÁCTICAS Y EJERCICIOS
-### HTML
-   [Mi primera página web](./HTML/primera_pagina_web/index.html)
+## Pages
 
-   [HTML semántico](./HTML/html_semantico/index.html)
+[Github Pages Alberto PB](https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Albert0PB/)
 
-   [Listas en HTML](./HTML/listas/index.html)
-
-   [Tablas en HTML](./HTML/tablas/index.html)
-
-   [Lenguajes de marcas en la web](./HTML/lenguajes_de_marcas_en_la_web/README.md)
-
-   [Formularios en HTML](./HTML/formularios/index.html)
-
-   [Otros menesteres](./HTML/menesteres/index.html)
-
-### CSS
-   [CSS Diner](./CSS/css_diner/index.html)
-
-   [Grid Garden](./CSS/grid_garden/index.html)
-
-   [Selectores](./CSS/selectores/index.html)
-
-   [Template areas](./HTML/html_semantico/index.html) ([CSS](./CSS/template_areas/style_semantico.css))
-
-   [Flexbox Froggy](./CSS/flexbox_froggy/index.html)
-
-   [Modelo de caja](./CSS/modelo_caja/index.html)
-
-   [Horario con display grid](./CSS/horario/index.html)
-
-### RSS
-   [HTML utilizado en ejercicios de sindicación de contenido con RSS y ATOM](./index.html)
-
-   [Lectores RSS y ATOM](./RSS/Lectores/README.md)
-
-   [Canal RSS](./RSS/Canal/README.md)
-
-### ATOM
-   [Canal ATOM](./ATOM/Canal/README.md)
-
-### DTD
-   [Actividad 1](./DTD/A1/README.md)
-
-   [Actividad 2](./DTD/A2/README.md)
-
-### XSD
-   [Actividad 3](./XSD/A3/README.md)
-
-   [Actividad 4](./XSD/A4/README.md)
-
-   [Actividad 5](./XSD/A5/README.md)
 
 ## Visual Studio Code
 Utiliza Visual Studio Code. Debes prepararlo con las extensiones necesarias para el trabajo con html. Para visualizarlo en el navegador o directamente en el Visual Studio Code: 
