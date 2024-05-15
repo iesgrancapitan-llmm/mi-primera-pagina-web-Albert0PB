@@ -2,6 +2,25 @@
 
 [Github Pages Alberto PB](https://iesgrancapitan-llmm.github.io/mi-primera-pagina-web-Albert0PB/)
 
+### DTD
+   [Actividad 1](./DTD/A1/README.md)
+
+   [Actividad 2](./DTD/A2/README.md)
+
+### XSD
+   [Actividad 3](./XSD/A3/README.md)
+
+   [Actividad 4](./XSD/A4/README.md)
+
+   [Actividad 5](./XSD/A5/README.md)
+
+### XSLT
+   [Actividad 4](./XSLT/A4/README.md)
+
+   [Actividad 5](./XSLT/A5/README.md)
+
+### XQUERY
+   [Actividad 1](./XQUERY/A1/README.md)
 
 ## Visual Studio Code
 Utiliza Visual Studio Code. Debes prepararlo con las extensiones necesarias para el trabajo con html. Para visualizarlo en el navegador o directamente en el Visual Studio Code: 
